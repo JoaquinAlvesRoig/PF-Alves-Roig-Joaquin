@@ -106,6 +106,7 @@ iframe{
 }
 
 .messi1{
+    width: 100%;
     display: flex;
     margin: 10px;
     height: 300px;
@@ -230,4 +231,37 @@ text-align: center;
     }
 }
 
+.todo{
+    width: 100%;
+    max-width: 1920px;
+    min-width: 320px
+}
 
+@media (min-width:320) {
+    .todo{
+
+        width: 100%;
+    }
+
+}
+@media screen and (max-width:800px) {
+    .todo{
+
+        width: 100%;
+    }   
+
+    .main{
+        
+        width: 70%;
+    }
+    
+}
+
+@media screen and (max-width:400px) {
+.todo{
+
+    width: 100%;
+}
+
+
+}
