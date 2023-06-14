@@ -65,7 +65,13 @@ font-size: 30px;
 .logoimg{
 height: 100px;
 margin-right: 10px;
+transition: all 0.5s;
 }
+
+.logoimg:hover {
+    height : 200px;
+}
+
 
 /* Pseudo-Clases */
 a{
@@ -95,10 +101,17 @@ nav a:hover{
     display: block;
     margin: auto;
     margin-bottom: 30px;
+    transition: all 0.5s;
 }
 
 iframe{ 
     display: block;
+
+}
+.video1:hover {
+    
+    width: 610px;
+    height: 340px;
 }
 
 .messi1{
@@ -120,27 +133,27 @@ font-family: 'League Spartan', ;
 .messi3{
 display: flex;
 margin: 10px;
-height: 320px;
+height: 300px;
 margin-right: 10px;
 }
 
 .messi4{
     display: flex;
-    margin: 50px;
+    margin: 10px;
     height: 620px;
     margin-right: 10px;
 }
 
 .messi5{
     display: flex;
-    margin: 50px;
+    margin: 1s0px;
     height: 420px;
     margin-right: 10px;
 }
 
 .messi6{
     display: flex;
-    margin: 50px;
+    margin: 10px;
     height: 320px;
     margin-right: 10px;
 }
@@ -194,7 +207,8 @@ text-align: center;
 }
 
 .row{
-    padding: 5px;
+    
+    padding: 10px;
     display: flex;
     flex-wrap: wrap;
 }
@@ -214,123 +228,73 @@ text-align: center;
 
     width: 360px;
 }
-.opiniones .caja-contenedor{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
+
+.img1{
+    transition: all 0.5s;
 }
 
-
-.opiniones .caja-contenedor .caja{
-    background: white;
-    margin: 1rem;
-    padding: 1rem;
-    text-align: center;
-    position: relative;
-    border: .1rem solid rgba(0,0,0,.2);
-    box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
-    flex: 1 1 30rem ;
-    border-radius: .5rem;
+.img1:hover {
+    width: 400px;
 
 }
 
 
-.opiniones .caja-contenedor .caja .fa-sm {
-    position: absolute;
-    top:2rem;
-    right: 1rem;
-    font-size: 2rem;
-    color: var(--limon);
-    opacity: .3;
+html, body {
+    width: 100% !important;
+    overflow-x: hidden !important;
 }
 
-.opiniones .caja-contenedor .caja .user img { 
-    border-radius: 50%;
-    object-fit: cover;
-    height: 8rem;
-    width: 8rem;
-    margin-top: 2rem;
+@media screen and (max-width:600px) {
     
-}
-
-.opiniones .caja-contenedor .caja .user h3{
-
-    color: var(--verde);
-    font-size: 2rem;
-
-}
-
-.opiniones .caja-contenedor .caja .user .stars i{
-    color: var(--verde);
-    font-size: 1.5rem;
-    padding: 1rem 0;
-
-
-}
-
-.opiniones .caja-contenedor .caja .comentarios {
-    color: #666;
-    font-size: 1.5rem;
-    padding: 1rem;
-
-}
-
-
-@media (max-width:1200px){
-    .messi2{   
-    padding: 10px; ;
-    font-size: 65%;
-       
-    }
-
-    .res{
-    width: 60%;
-    height: 60%;
-    }
-}
-
-@media (max-width:600px) {
-    .column {
-        flex: 100%;
-    }
-}
-
-@media (max-width:800px) {
-    .column {
-        flex: 50%;
-    }
-}
-
-.todo{
-    width: 100%;
-    max-width: 1920px;
-    min-width: 320px
-}
-
-@media (min-width:320) {
-    .todo{
-
-        width: 100%;
-    }
-
-}
-@media screen and (max-width:800px) {
-    .todo{
-
-        width: 100%;
-    }   
-
-    .main{
+    .messsi2 {
+        padding-right: 10px;
+        font-size: 10px;
         
-        width: 70%;
     }
-    
-}
 
-@media screen and (max-width:400px) {
-.todo{
+    .res {
+        padding-left: none;
+        padding-right: 5px;
+        height: 25%;
 
-    width: 100%;
     }   
+    .messi2 {
+        
+       padding-right: 10px;
+        font-size: 10px;
+        display:contents;
+    }
 }
+
+@media screen and (min-width:601px) {
+    
+    .messsi2 {
+        padding-right: 10px;
+        font-size: 20px;
+    }
+
+    .res {
+        height: 50%;
+
+    }   
+
+    .messi2{
+        padding-right: 10px;
+        font-size: 20px;
+        display:contents;
+
+    }
+    .messsi3 {
+        
+        font-size: 20px;
+        flex: content;
+    }
+    .messii2 {
+        padding-right: 10px;
+        font-size: 19px;
+        display:contents;
+    }
+}
+
+
+
