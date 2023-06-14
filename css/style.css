@@ -72,7 +72,33 @@ transition: all 0.5s;
     height : 200px;
 }
 
+.jota{
+    transition: all 0.5s;
+  
+    
+}
+.jota:hover {
+font-size:20px ;
 
+}
+
+/* .jota2{
+    transition: all 0.5s;
+    
+}
+.jota2:hover {
+font-size:20px ;
+
+} */
+.ja{
+    transition: all 0.5s;
+
+}
+
+.ja:hover {
+    font-size: 80px;
+
+}
 /* Pseudo-Clases */
 a{
  text-decoration: none;
@@ -103,16 +129,29 @@ nav a:hover{
     margin-bottom: 30px;
     transition: all 0.5s;
 }
-
-iframe{ 
-    display: block;
-
-}
 .video1:hover {
     
     width: 610px;
     height: 340px;
 }
+
+.video10{
+    display: block;
+    margin: auto;
+    margin-bottom: 30px;
+    transition: all 0.5s;
+}
+
+.video10:hover {
+
+    width: 640px;
+}
+
+iframe{ 
+    display: block;
+
+}
+
 
 .messi1{
     width: 100%;
@@ -138,6 +177,7 @@ margin-right: 10px;
 }
 
 .messi4{
+    
     display: flex;
     margin: 10px;
     height: 620px;
@@ -146,7 +186,7 @@ margin-right: 10px;
 
 .messi5{
     display: flex;
-    margin: 1s0px;
+    margin: 10px;
     height: 420px;
     margin-right: 10px;
 }
@@ -165,20 +205,6 @@ margin-right: 90px;
 font-size: 70px;
 font-family: 'League Spartan', ;
 }
-
-.trofeo1{
-    font-size: 30px;
-    padding-left: 20px;
-    font-family: 'League Spartan', ;
-}
-
-.trofeo{
-    display: flex;
-    margin: 50px;
-    height: 320px;
-    margin-right: 10px;
-}
-
 
 .flex-item { 
     height: 290px;
@@ -238,6 +264,12 @@ text-align: center;
 
 }
 
+.palmare {
+    
+    font-weight: bold;
+    padding-left: 15px;
+    text-align: center;
+}
 
 html, body {
     width: 100% !important;
@@ -271,6 +303,7 @@ html, body {
     .messsi2 {
         padding-right: 10px;
         font-size: 20px;
+        padding-left: 10px;
     }
 
     .res {
@@ -279,22 +312,29 @@ html, body {
     }   
 
     .messi2{
-        padding-right: 10px;
+        margin-left: 10px;
+        padding-left: 10px;
         font-size: 20px;
         display:contents;
 
     }
     .messsi3 {
-        
+        padding-left: 10px;
         font-size: 20px;
         flex: content;
     }
     .messii2 {
+        padding-left: 10px;
         padding-right: 10px;
         font-size: 19px;
         display:contents;
     }
 }
 
-
-
+@media screen and (min-width:701PX) {
+    .video10{
+    height: 350px;
+    width: 600px;    
+    
+    }
+}
