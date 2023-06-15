@@ -1,25 +1,21 @@
-/* RESET */
-*{
-margin: 0px;
-padding: 0px;
-box-sizing: border-box;
-text-decoration: none;
-}
-body{    
-    
+body{
     background-image: url(../imagenes/imagen6.jpg);
     margin: 0;
     padding: 0;
     background-size: 1900px;
-  
-} 
+}
+html, body {
+    width: 100% !important;
+    overflow-x: hidden !important;
+}
+
 .tittle {
 
    
     margin-left: 30px;
 }
 h1{
-    color:rgb(245, 242, 242);
+    color: $titulo;
     font-family: 'League Spartan', ;
     padding: 35px;
     font-size: 50px;
@@ -27,19 +23,19 @@ h1{
 }
 
 h2{
-color: rgb(0, 0, 0);
+    color: $texto;
 }
 
 span{
     text-align: center;
-    color:rgb(255, 255, 255);
+    color:$titulo;
     font-size: 50px;
 }
 
  p{
     font-family: 'League Spartan', ;
     font-size: 30px;
-    color:rgb(255, 254, 254);
+    color:$titulo;
  }
 
 footer{
@@ -52,62 +48,48 @@ i{
 
 .nosotros{
 
-    color: black;
+    color: $texto;
     font-size: 30px;
 }
 
 h5{
-color: black;
-font-size: 30px;
+    color: $texto;
+    font-size: 30px;
 
 }
 
 .logoimg{
-height: 100px;
-margin-right: 10px;
-transition: all 0.5s;
-}
+    height: 100px;
+    margin-right: 10px;
+    transition: all 0.5s;
 
-.logoimg:hover {
-    height : 200px;
-}
+    &:hover{
+        height : 200px;
+    }
 
+}
 .jota{
     transition: all 0.5s;
-  
-    
-}
-.jota:hover {
-font-size:20px ;
-
-}
-
-/* .jota2{
-    transition: all 0.5s;
-    
-}
-.jota2:hover {
-font-size:20px ;
-
-} */
+    &:hover{
+        font-size:20px;
+    }
+} 
 .ja{
     transition: all 0.5s;
-
-}
-
-.ja:hover {
+    &:hover {
     font-size: 80px;
-
+    }
 }
+
 /* Pseudo-Clases */
 a{
  text-decoration: none;
- color: black;
+ color: $texto;
 }
 
 a:visited {
 
-    color:black; 
+    color: $texto;
 }
 nav a:hover{
     color: rgb(185, 26, 26);
@@ -117,41 +99,6 @@ nav a{
     font-weight: 600;
    padding-right: 10px;
 }
-
-
-nav a:hover{
-    color: rgb(185, 26, 26);
-}
-
-.video1{
-    display: block;
-    margin: auto;
-    margin-bottom: 30px;
-    transition: all 0.5s;
-}
-.video1:hover {
-    
-    width: 610px;
-    height: 340px;
-}
-
-.video10{
-    display: block;
-    margin: auto;
-    margin-bottom: 30px;
-    transition: all 0.5s;
-}
-
-.video10:hover {
-
-    width: 640px;
-}
-
-iframe{ 
-    display: block;
-
-}
-
 
 .messi1{
     width: 100%;
@@ -198,84 +145,6 @@ margin-right: 10px;
     margin-right: 10px;
 }
 
-.mejores{
-text-align: center;
-color: white;
-margin-right: 90px;
-font-size: 70px;
-font-family: 'League Spartan', ;
-}
-
-.flex-item { 
-    height: 290px;
-    margin-bottom: 20px;
-    margin-left: 30px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.container {
-    width: 100%;
-    height: 500px;
-    padding: 20px;
-    display: flex;
-    flex-wrap: wrap; 
-}
-
-.noso1{
-    text-align: center;
-    font-size: 40px;
-}
-
-.titulo{
-text-align: center;
-}
-
-.row{
-    
-    padding: 10px;
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.column{
-    padding: 5px;
-    flex: 25%;
-}
-
-.column img {
-
-    margin-top: 5px;
-
-}
-
-.row img{
-
-    width: 360px;
-}
-
-.img1{
-    transition: all 0.5s;
-}
-
-.img1:hover {
-    width: 400px;
-
-}
-
-.palmare {
-    
-    font-weight: bold;
-    padding-left: 15px;
-    text-align: center;
-}
-
-html, body {
-    width: 100% !important;
-    overflow-x: hidden !important;
-}
-
 @media screen and (max-width:600px) {
     
     .messsi2 {
@@ -296,6 +165,14 @@ html, body {
         font-size: 10px;
         display:contents;
     }
+    .messsi3{
+        font-size: 20px;
+    }
+    .messii2{
+        font-size: 10px;
+       
+    }
+
 }
 
 @media screen and (min-width:601px) {
@@ -331,10 +208,3 @@ html, body {
     }
 }
 
-@media screen and (min-width:701PX) {
-    .video10{
-    height: 350px;
-    width: 600px;    
-    
-    }
-}

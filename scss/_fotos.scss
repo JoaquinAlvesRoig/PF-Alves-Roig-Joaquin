@@ -1,0 +1,158 @@
+body{
+    background-image: url(../imagenes/imagen6.jpg);
+    margin: 0;
+    padding: 0;
+    background-size: 1900px;
+}
+html, body {
+    width: 100% !important;
+    overflow-x: hidden !important;
+}
+
+.tittle {
+
+   
+    margin-left: 30px;
+}
+h1{
+    color: $titulo;
+    font-family: 'League Spartan', ;
+    padding: 35px;
+    font-size: 50px;
+    text-align: center;
+}
+
+h2{
+    color: $texto;
+}
+
+span{
+    text-align: center;
+    color:$titulo;
+    font-size: 50px;
+}
+
+ p{
+    font-family: 'League Spartan', ;
+    font-size: 30px;
+    color:$titulo;
+ }
+
+footer{
+    padding: 0%;
+}
+
+i{
+    font-size: 25px;
+}
+
+.nosotros{
+
+    color: $texto;
+    font-size: 30px;
+}
+
+h5{
+    color: $texto;
+    font-size: 30px;
+
+}
+
+.logoimg{
+    height: 100px;
+    margin-right: 10px;
+    transition: all 0.5s;
+
+    &:hover{
+        height : 200px;
+    }
+
+}
+.jota{
+    transition: all 0.5s;
+    &:hover{
+        font-size:20px;
+    }
+} 
+.ja{
+    transition: all 0.5s;
+    &:hover {
+    font-size: 80px;
+    }
+}
+
+/* Pseudo-Clases */
+a{
+ text-decoration: none;
+ color: $texto;
+}
+
+a:visited {
+
+    color: $texto;
+}
+nav a:hover{
+    color: rgb(185, 26, 26);
+}
+
+nav a{
+    font-weight: 600;
+   padding-right: 10px;
+}
+.flex-item { 
+    height: 290px;
+    margin-bottom: 20px;
+    margin-left: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 100%;
+    height: 500px;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap; 
+}
+
+.noso1{
+    text-align: center;
+    font-size: 40px;
+}
+
+.titulo{
+text-align: center;
+}
+
+.row{
+    
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.column{
+    padding: 5px;
+    flex: 25%;
+}
+
+.column img {
+
+    margin-top: 5px;
+
+}
+
+.row img{
+
+    width: 360px;
+}
+
+.img1{
+    transition: all 0.5s;
+}
+
+.img1:hover {
+    width: 400px;
+
+}
