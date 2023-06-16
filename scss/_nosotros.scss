@@ -100,25 +100,32 @@ nav a{
    padding-right: 10px;
 }
 
-.video1{
-    display: block;
-    margin: auto;
-    margin-bottom: 30px;
+.nosotros2{
+    color: black;
     transition: all 0.5s;
-    &:hover{
-        width: 610px;
-        height: 340px;
+    &:hover {
+    font-size: 80px;
     }
 }
-.mejores{
-    text-align: center;
-    color:$titulo;
-    margin-right: 90px;
-    font-size: 70px;
-    font-family: 'League Spartan', ;
-    }
+.nosotros1{
+    color: black;
+    margin: 5px;
+}
 
-.fondo {
+.padre{
+    display: flex;
+    justify-content: center;
+}
+
+.yo{
+   
+    padding-bottom: 10px;
+    border-radius: 20px;
+    width: 500px;
+    height: 650px;
+}
+
+.blanco{
     margin-top: 10px;
     background-color: grey;
     border-radius: 20px;

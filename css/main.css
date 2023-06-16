@@ -117,6 +117,12 @@ nav a {
   font-family: "League Spartan";
 }
 
+.fondo {
+  margin-top: 10px;
+  background-color: grey;
+  border-radius: 20px;
+}
+
 body {
   background-image: url(../imagenes/imagen6.jpg);
   margin: 0;
@@ -591,6 +597,136 @@ nav a {
     height: 350px;
     width: 600px;
   }
+}
+body {
+  background-image: url(../imagenes/imagen6.jpg);
+  margin: 0;
+  padding: 0;
+  background-size: 1900px;
+}
+
+html, body {
+  width: 100% !important;
+  overflow-x: hidden !important;
+}
+
+.tittle {
+  margin-left: 30px;
+}
+
+h1 {
+  color: white;
+  font-family: "League Spartan";
+  padding: 35px;
+  font-size: 50px;
+  text-align: center;
+}
+
+h2 {
+  color: #000000;
+}
+
+span {
+  text-align: center;
+  color: white;
+  font-size: 50px;
+}
+
+p {
+  font-family: "League Spartan";
+  font-size: 30px;
+  color: white;
+}
+
+footer {
+  padding: 0%;
+}
+
+i {
+  font-size: 25px;
+}
+
+.nosotros {
+  color: #000000;
+  font-size: 30px;
+}
+
+h5 {
+  color: #000000;
+  font-size: 30px;
+}
+
+.logoimg {
+  height: 100px;
+  margin-right: 10px;
+  transition: all 0.5s;
+}
+.logoimg:hover {
+  height: 200px;
+}
+
+.jota {
+  transition: all 0.5s;
+}
+.jota:hover {
+  font-size: 20px;
+}
+
+.ja {
+  transition: all 0.5s;
+}
+.ja:hover {
+  font-size: 80px;
+}
+
+/* Pseudo-Clases */
+a {
+  text-decoration: none;
+  color: #000000;
+}
+
+a:visited {
+  color: #000000;
+}
+
+nav a:hover {
+  color: rgb(185, 26, 26);
+}
+
+nav a {
+  font-weight: 600;
+  padding-right: 10px;
+}
+
+.nosotros2 {
+  color: black;
+  transition: all 0.5s;
+}
+.nosotros2:hover {
+  font-size: 80px;
+}
+
+.nosotros1 {
+  color: black;
+  margin: 5px;
+}
+
+.padre {
+  display: flex;
+  justify-content: center;
+}
+
+.yo {
+  padding-bottom: 10px;
+  border-radius: 20px;
+  width: 500px;
+  height: 650px;
+}
+
+.blanco {
+  margin-top: 10px;
+  background-color: grey;
+  border-radius: 20px;
 }
 
 /*# sourceMappingURL=main.css.map */
