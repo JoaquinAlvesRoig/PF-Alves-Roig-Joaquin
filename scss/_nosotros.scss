@@ -101,32 +101,34 @@ nav a{
 }
 
 .nosotros2{
-    color: black;
+    color: rgb(255, 255, 255);
     transition: all 0.5s;
     &:hover {
     font-size: 80px;
     }
 }
 .nosotros1{
-    color: black;
+    color: rgb(255, 255, 255);
     margin: 5px;
 }
 
 .padre{
     display: flex;
     justify-content: center;
-}
-
-.yo{
    
-    padding-bottom: 10px;
-    border-radius: 20px;
-    width: 500px;
-    height: 650px;
+
 }
 
 .blanco{
-    margin-top: 10px;
     background-color: grey;
     border-radius: 20px;
+    margin: 10px;
+}
+
+.yo{
+    height: 700px;
+    width: 500px;
+    border-radius: 20px;
+    margin: 10px;
+
 }
