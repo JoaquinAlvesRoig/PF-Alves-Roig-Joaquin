@@ -117,7 +117,7 @@ font-family: 'League Spartan', ;
 
 .messi3{
 display: flex;
-margin: 10px;
+margin-top: 500px;
 height: 300px;
 margin-right: 10px;
 }
@@ -166,6 +166,7 @@ margin-right: 10px;
         display:contents;
     }
     .messsi3{
+        
         font-size: 20px;
     }
     .messii2{
@@ -188,6 +189,11 @@ margin-right: 10px;
 
     }   
 
+    .messi4{
+      
+        margin-top: 20px;
+    }
+
     .messi2{
         margin-left: 10px;
         padding-left: 10px;
@@ -196,8 +202,9 @@ margin-right: 10px;
 
     }
     .messsi3 {
+        margin: 10px;
         padding-left: 10px;
-        font-size: 20px;
+        font-size: 15px;
         flex: content;
     }
     .messii2 {

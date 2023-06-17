@@ -240,7 +240,7 @@ nav a {
 
 .messi3 {
   display: flex;
-  margin: 10px;
+  margin-top: 500px;
   height: 300px;
   margin-right: 10px;
 }
@@ -297,6 +297,9 @@ nav a {
   .res {
     height: 50%;
   }
+  .messi4 {
+    margin-top: 20px;
+  }
   .messi2 {
     margin-left: 10px;
     padding-left: 10px;
@@ -304,8 +307,9 @@ nav a {
     display: contents;
   }
   .messsi3 {
+    margin: 10px;
     padding-left: 10px;
-    font-size: 20px;
+    font-size: 15px;
     flex: content;
   }
   .messii2 {
