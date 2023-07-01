@@ -84,7 +84,7 @@ h5{
 /* Pseudo-Clases */
 a{
  text-decoration: none;
- color:white;
+ color: $texto;
 }
 
 a:visited {
@@ -92,10 +92,11 @@ a:visited {
     color: white;
 }
 nav a:hover{
-    color: rgb(185, 26, 26);
+    color: rgb(255, 255, 255);
 }
 
 nav a{
+    color: $texto;
     font-weight: 600;
    padding-right: 10px;
 }
