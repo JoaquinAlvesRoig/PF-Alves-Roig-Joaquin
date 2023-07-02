@@ -1,8 +1,10 @@
 body{
+   
     background-image: url(../imagenes/imagen6.jpg);
     margin: 0;
     padding: 0;
     background-size: 1900px;
+
 }
 html, body {
     width: 100% !important;
@@ -10,8 +12,9 @@ html, body {
 }
 
 .tittle {
-
-   
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin: 10px;
 }
 h1{
@@ -48,12 +51,15 @@ i{
 
 .nosotros{
     color: black;
+    font-size: 30px;
+    text-align: center;
 }
 
-h5{
-    color: $texto;
-    font-size: 30px;
 
+h5{
+    color: #0d6efd;
+    font-size: 30px;
+    text-align: center;
 }
 
 .logoimg{
@@ -66,7 +72,14 @@ h5{
     }
 
 }
+
+.jota2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .jota{
+    
     transition: all 0.5s;
     &:hover{
         font-size:20px;
@@ -87,7 +100,7 @@ a{
 
 a:visited {
 
-    color: rgb(12, 12, 12);
+    color: rgb(0, 0, 0);
 }
 nav a:hover{
     color: rgb(255, 255, 255);
@@ -98,10 +111,16 @@ nav a{
     font-weight: 600;
    padding-right: 10px;
 }
+.clasedelvideo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
 
+}
 .video1{
     display: block;
-    margin: auto;
+    
     margin-bottom: 30px;
     transition: all 0.5s;
     &:hover{
@@ -116,12 +135,22 @@ nav a{
     font-size: 70px;
     font-family: 'League Spartan', ;
     }
+
+.parrafoIntro{
+        color: white;
+        text-align: center;
+    }
 .blanco{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
     backdrop-filter: blur(15px);
     background-color: transparent;
     border: 1px solid black;
     border-radius: 20px;
     margin: 10px;
+    width: 800px;
+    padding: 10px;
 }
    
 .jotaa{
