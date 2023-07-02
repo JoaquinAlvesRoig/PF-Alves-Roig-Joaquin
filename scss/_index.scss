@@ -84,19 +84,19 @@ h5{
 /* Pseudo-Clases */
 a{
  text-decoration: none;
- color: $texto;
+ color: white;
 }
 
 a:visited {
 
-    color: white;
+    color: rgb(141, 52, 52);
 }
 nav a:hover{
     color: rgb(255, 255, 255);
 }
 
 nav a{
-    color: $texto;
+    color: white;
     font-weight: 600;
    padding-right: 10px;
 }
@@ -120,7 +120,8 @@ nav a{
     }
 
 .blanco{
-    background-color: grey;
+    background-color: transparent;
+    border: 1px solid black;
   border-radius: 20px;
   margin: 10px;
 }
