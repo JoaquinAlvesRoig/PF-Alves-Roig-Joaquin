@@ -23,7 +23,7 @@ h1 {
 }
 
 h2 {
-  color: white;
+  color: rgba(0, 0, 0, 0);
 }
 
 span {
@@ -35,7 +35,7 @@ span {
 p {
   font-family: "League Spartan";
   font-size: 30px;
-  color: white;
+  color: black;
 }
 
 footer {
@@ -47,12 +47,11 @@ i {
 }
 
 .nosotros {
-  color: white;
-  font-size: 30px;
+  color: black;
 }
 
 h5 {
-  color: white;
+  color: rgba(0, 0, 0, 0);
   font-size: 30px;
 }
 
@@ -82,11 +81,11 @@ h5 {
 /* Pseudo-Clases */
 a {
   text-decoration: none;
-  color: white;
+  color: rgb(0, 0, 0);
 }
 
 a:visited {
-  color: rgb(141, 52, 52);
+  color: rgb(12, 12, 12);
 }
 
 nav a:hover {
@@ -94,7 +93,7 @@ nav a:hover {
 }
 
 nav a {
-  color: white;
+  color: rgb(0, 0, 0);
   font-weight: 600;
   padding-right: 10px;
 }
@@ -119,6 +118,7 @@ nav a {
 }
 
 .blanco {
+  backdrop-filter: blur(15px);
   background-color: transparent;
   border: 1px solid black;
   border-radius: 20px;
@@ -154,7 +154,7 @@ h1 {
 }
 
 h2 {
-  color: white;
+  color: rgba(0, 0, 0, 0);
 }
 
 span {
@@ -177,13 +177,8 @@ i {
   font-size: 25px;
 }
 
-.nosotros {
-  color: white;
-  font-size: 30px;
-}
-
 h5 {
-  color: white;
+  color: rgba(0, 0, 0, 0);
   font-size: 30px;
 }
 
@@ -213,11 +208,11 @@ h5 {
 /* Pseudo-Clases */
 a {
   text-decoration: none;
-  color: white;
+  color: rgba(0, 0, 0, 0);
 }
 
 a:visited {
-  color: white;
+  color: rgba(0, 0, 0, 0);
 }
 
 nav a:hover {
@@ -350,7 +345,7 @@ h1 {
 }
 
 h2 {
-  color: white;
+  color: rgba(0, 0, 0, 0);
 }
 
 span {
@@ -373,13 +368,8 @@ i {
   font-size: 25px;
 }
 
-.nosotros {
-  color: white;
-  font-size: 30px;
-}
-
 h5 {
-  color: white;
+  color: rgba(0, 0, 0, 0);
   font-size: 30px;
 }
 
@@ -409,11 +399,11 @@ h5 {
 /* Pseudo-Clases */
 a {
   text-decoration: none;
-  color: white;
+  color: rgba(0, 0, 0, 0);
 }
 
 a:visited {
-  color: white;
+  color: rgba(0, 0, 0, 0);
 }
 
 nav a:hover {
@@ -510,7 +500,7 @@ h1 {
 }
 
 h2 {
-  color: white;
+  color: rgba(0, 0, 0, 0);
 }
 
 span {
@@ -534,12 +524,12 @@ i {
 }
 
 .nosotros {
-  color: white;
+  color: rgba(0, 0, 0, 0);
   font-size: 30px;
 }
 
 h5 {
-  color: white;
+  color: rgba(0, 0, 0, 0);
   font-size: 30px;
 }
 
@@ -569,15 +559,15 @@ h5 {
 /* Pseudo-Clases */
 a {
   text-decoration: none;
-  color: white;
+  color: rgba(0, 0, 0, 0);
 }
 
 a:visited {
-  color: white;
+  color: rgba(0, 0, 0, 0);
 }
 
 nav a:hover {
-  color: white;
+  color: rgba(0, 0, 0, 0);
 }
 
 nav a {
@@ -633,7 +623,7 @@ h1 {
 }
 
 h2 {
-  color: white;
+  color: rgba(0, 0, 0, 0);
 }
 
 span {
@@ -657,12 +647,12 @@ i {
 }
 
 .nosotros {
-  color: white;
+  color: rgba(0, 0, 0, 0);
   font-size: 30px;
 }
 
 h5 {
-  color: white;
+  color: rgba(0, 0, 0, 0);
   font-size: 30px;
 }
 
@@ -692,11 +682,11 @@ h5 {
 /* Pseudo-Clases */
 a {
   text-decoration: none;
-  color: white;
+  color: rgba(0, 0, 0, 0);
 }
 
 a:visited {
-  color: white;
+  color: rgba(0, 0, 0, 0);
 }
 
 nav a:hover {

@@ -35,7 +35,7 @@ span{
  p{
     font-family: 'League Spartan', ;
     font-size: 30px;
-    color:$titulo;
+    color:black;
  }
 
 footer{
@@ -47,9 +47,7 @@ i{
 }
 
 .nosotros{
-
-    color: $texto;
-    font-size: 30px;
+    color: black;
 }
 
 h5{
@@ -84,19 +82,19 @@ h5{
 /* Pseudo-Clases */
 a{
  text-decoration: none;
- color: white;
+ color: rgb(0, 0, 0);
 }
 
 a:visited {
 
-    color: rgb(141, 52, 52);
+    color: rgb(12, 12, 12);
 }
 nav a:hover{
     color: rgb(255, 255, 255);
 }
 
 nav a{
-    color: white;
+    color: rgb(0, 0, 0);
     font-weight: 600;
    padding-right: 10px;
 }
@@ -118,13 +116,14 @@ nav a{
     font-size: 70px;
     font-family: 'League Spartan', ;
     }
-
 .blanco{
+    backdrop-filter: blur(15px);
     background-color: transparent;
     border: 1px solid black;
-  border-radius: 20px;
-  margin: 10px;
+    border-radius: 20px;
+    margin: 10px;
 }
+   
 .jotaa{
     margin-left: 1300px;
 }
