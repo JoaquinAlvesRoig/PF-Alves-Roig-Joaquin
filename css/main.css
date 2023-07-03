@@ -623,6 +623,13 @@ nav a {
   text-align: center;
 }
 
+.palmares {
+  color: black;
+  font-weight: bold;
+  padding-left: 15px;
+  text-align: center;
+}
+
 .video10 {
   display: block;
   margin: auto;
